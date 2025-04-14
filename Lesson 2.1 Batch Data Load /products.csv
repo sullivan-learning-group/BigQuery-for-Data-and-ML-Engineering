@@ -1,0 +1,101 @@
+product_id,product_name,category,price,stock_quantity
+1,Measuring Tape 0,Tools,791.72,653
+2,Basketball 1,Sports,289.84,541
+3,Coffee Table 2,Furniture,889.72,418
+4,Wrench Set 3,Tools,304.85,816
+5,Cat Tree 4,Pet Supplies,693.64,872
+6,Dog Leash 5,Pet Supplies,63.61,257
+7,Dumbbells 6,Sports,706.24,94
+8,Dumbbells 7,Sports,468.66,855
+9,Microwave 8,Appliances,218.7,542
+10,Bread 9,Grocery,274.35,492
+11,Hoodie 10,Clothing,705.86,431
+12,Jump Rope 11,Sports,46.38,138
+13,Blender 12,Appliances,416.09,424
+14,Blouse 13,Clothing,755.51,931
+15,Pencil 14,Books,34.01,804
+16,Orange Juice 15,Grocery,789.26,708
+17,Toothbrush 16,Personal Care,18.86,962
+18,Basketball 17,Sports,535.21,20
+19,Shoes 18,Clothing,596.9,300
+20,Calendar 19,Books,392.53,90
+21,Cat Tree 20,Pet Supplies,79.92,104
+22,Socks 21,Clothing,911.45,726
+23,Blender 22,Appliances,763.41,29
+24,Office Chair 23,Furniture,635.42,197
+25,Office Chair 24,Furniture,257.19,398
+26,Rice 25,Grocery,11.54,742
+27,Aquarium 26,Pet Supplies,189.51,658
+28,Hammer 27,Tools,190.48,350
+29,Toothpaste 28,Personal Care,251.86,862
+30,Headphones 29,Electronics,999.43,73
+31,Aquarium 30,Pet Supplies,793.44,779
+32,Soap 31,Personal Care,846.25,475
+33,Running Shoes 32,Sports,628.23,60
+34,Conditioner 33,Personal Care,551.4,915
+35,Yogurt 34,Grocery,504.96,95
+36,Yoga Mat 35,Sports,902.29,894
+37,Soap 36,Personal Care,318.73,215
+38,Book 37,Books,980.18,555
+39,Perfume 38,Personal Care,234.84,302
+40,Saw 39,Tools,673.48,470
+41,Yoga Mat 40,Sports,711.47,438
+42,Oven 41,Appliances,173.25,244
+43,Toothpaste 42,Personal Care,601.01,542
+44,Hair Dryer 43,Appliances,399.48,300
+45,Hoodie 44,Clothing,319.66,961
+46,Bicycle 45,Sports,386.49,771
+47,Bookshelf 46,Furniture,478.57,651
+48,Pasta 47,Grocery,437.42,201
+49,TV Stand 48,Furniture,637.29,346
+50,Deodorant 49,Personal Care,7.31,379
+51,Hat 50,Clothing,421.52,239
+52,Perfume 51,Personal Care,580.99,968
+53,Calendar 52,Books,606.47,786
+54,Cat Food 53,Pet Supplies,380.98,632
+55,Yogurt 54,Grocery,513.28,908
+56,Chair 55,Furniture,367.77,214
+57,Saw 56,Tools,498.85,113
+58,Pencil 57,Books,592.67,717
+59,Keyboard 58,Electronics,498.72,45
+60,Oven 59,Appliances,328.8,251
+61,Toaster 60,Appliances,620.02,561
+62,Fish Food 61,Pet Supplies,704.84,913
+63,USB Cable 62,Electronics,232.03,117
+64,Hair Dryer 63,Appliances,256.33,637
+65,Laptop 64,Electronics,915.86,505
+66,Lotion 65,Personal Care,683.89,988
+67,Hammer 66,Tools,933.67,737
+68,TV Stand 67,Furniture,5.35,342
+69,Jump Rope 68,Sports,530.38,199
+70,Toothbrush 69,Personal Care,702.3,143
+71,Eraser 70,Books,376.3,416
+72,Golf Clubs 71,Sports,605.0,682
+73,Perfume 72,Personal Care,597.09,49
+74,Headphones 73,Electronics,381.34,736
+75,Refrigerator 74,Appliances,437.48,605
+76,Dress 75,Clothing,331.62,55
+77,Golf Clubs 76,Sports,245.86,671
+78,Refrigerator 77,Appliances,716.18,811
+79,Notebook 78,Books,896.22,601
+80,Pasta 79,Grocery,117.15,700
+81,Yoga Mat 80,Sports,633.83,363
+82,Cheese 81,Grocery,248.32,246
+83,Dishwasher 82,Appliances,132.25,861
+84,Mouse 83,Electronics,734.43,792
+85,Yoga Mat 84,Sports,233.12,184
+86,Dumbbells 85,Sports,993.07,124
+87,Shampoo 86,Personal Care,224.2,799
+88,Speaker 87,Electronics,976.67,423
+89,Coffee Table 88,Furniture,332.38,247
+90,Dishwasher 89,Appliances,397.76,262
+91,Pet Bed 90,Pet Supplies,318.94,613
+92,Rice 91,Grocery,147.77,888
+93,Keyboard 92,Electronics,743.6,230
+94,Hair Dryer 93,Appliances,336.66,753
+95,Coffee Table 94,Furniture,599.03,720
+96,Eggs 95,Grocery,195.33,344
+97,Tablet 96,Electronics,383.5,167
+98,Skirt 97,Clothing,917.4,676
+99,Conditioner 98,Personal Care,930.91,972
+100,Cat Litter 99,Pet Supplies,762.21,795

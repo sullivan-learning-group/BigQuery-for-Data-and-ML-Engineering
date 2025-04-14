@@ -1,0 +1,5 @@
+Notes: Streaming Data to BigQuery
+
+1. Create a dataset called sensor_dataset
+2. Create a table called temp_humidity using the schema defined in sensor_table_bigquery.json
+3. Open the stream_sensor_data.py script in Colab and execute

@@ -1,0 +1,8 @@
+README: 2.1 Batch Data Load
+
+1. Create a dataset called retail_dataset
+2. For each file called: Create a table from upload file
+    Select file in {products.csv, sales_transactions.csv, stores.csv}
+      Create a table
+      Upload file
+      Automatically detect schema

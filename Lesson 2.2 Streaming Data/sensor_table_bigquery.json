@@ -1,0 +1,19 @@
+
+[
+  {
+    "name": "timestamp",
+    "type": "TIMESTAMP"
+  },
+  {
+    "name": "sensor_id",
+    "type": "STRING"
+  },
+  {
+    "name": "temperature",
+    "type": "INTEGER"
+  },
+  {
+    "name": "humidity",
+    "type": "INTEGER"
+  }
+]
