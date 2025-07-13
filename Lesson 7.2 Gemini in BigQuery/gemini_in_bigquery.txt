@@ -1,0 +1,23 @@
+
+1. Prompt for descriptive statistics
+create a query to show descriptive statistics about sales_transactions in the retail_dataset
+
+2.Prompt to create an example of joining tables
+create a query that shows how to join the products, sales_transactions and store tables in the retail_dataset
+
+3. Explain the following query
+SELECT
+  *
+FROM
+  `bq-data-ml-engineering-459914`.`retail_dataset`.`products` AS products
+INNER JOIN
+  `bq-data-ml-engineering-459914`.`retail_dataset`.`sales_transactions` AS t0
+ON
+  products.product_id = t0.product_id
+INNER JOIN
+  `bq-data-ml-engineering-459914`.`retail_dataset`.`stores` AS stores
+ON
+  t0.store_id = stores.store_id;
+
+
+

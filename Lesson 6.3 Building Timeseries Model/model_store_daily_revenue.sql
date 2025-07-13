@@ -1,6 +1,6 @@
 -- Step 1: Create the Time Series Forecasting Model
 
-CREATE OR REPLACE MODEL `bq-data-ml-engineering.timeseries_dataset.store_revenue_forecast_model`
+CREATE OR REPLACE MODEL `bq-data-ml-engineering-459914.timeseries_data.store_revenue_forecast_model`
 OPTIONS(
   model_type = 'ARIMA_PLUS',              -- Specifies the ARIMA+ model for time series
   time_series_timestamp_col = 'date',    -- Column representing the date/time
@@ -11,12 +11,11 @@ OPTIONS(
   data_frequency = 'DAILY',              -- Frequency of the time series data
   holiday_region = 'US',                 -- Incorporate US holidays automatically
   decompose_time_series = TRUE           -- Decompose into trend, seasonality, residual
-  -- You could add 'feature_cols = ['is_promo', 'is_holiday']' if you know these future values
-  -- and want to explicitly use them as regressors. Requires knowing values for the forecast period.
 ) AS
 SELECT
   date,
   store_id,
   revenue
 FROM
-  `bq-data-ml-engineering.timeseries_dataset.store_daily_revenue`; -- Your source table
+  `bq-data-ml-engineering-459914.timeseries_data.store_daily_revenue`; 
+

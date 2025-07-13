@@ -12,31 +12,24 @@ gcloud dataproc clusters create slg-bq-data-ml-dataproc \
     --worker-machine-type n1-standard-2 \
     --num-workers 2 
 
-export CLUSTER_NAME="cluster-a159"
-gcloud compute ssh $CLUSTER_NAME-m --zone us-central1-a
+# note, you may need to change the zone to the one where your cluster was created
+export CLUSTER_NAME="slg-bq-data-ml-dataproc"
+gcloud compute ssh $CLUSTER_NAME-m --zone us-central1-f
 
 export PROJECT_ID="bq-data-ml-engineering"  # Replace with your project ID
 export DATASET_NAME="retail_dataset" # Replace with your dataset name
 export TEMP_BUCKET="slg-bq-data-ml-engineering"      # Replace with your bucket
 
-
---- To query using SQL in Spark
-spark-sql --packages=com.google.cloud.spark:spark-bigquery-with-dependencies_2.12:0.28.0 \
-    --conf spark.sql.dialect=standard \
-    --conf spark.hadoop.fs.gs.project.id=$PROJECT_ID \
-    --conf spark.hadoop.fs.gs.system.bucket=$TEMP_BUCKET \
-    --conf spark.hadoop.fs.gs.working.dir=/
-
-CREATE TEMPORARY VIEW products_bq
-USING bigquery
-OPTIONS (
-  table = 'bq-data-ml-engineering.retail_dataset.products'
-);
-
-SELECT * FROM products_bq LIMIT 10;
+export PROJECT_ID="bq-data-ml-engineering"  
+export DATASET_NAME="retail_dataset" 
+export TEMP_BUCKET="slg-bq-data-ml-engineering"      
 
 ---- To query using PySpark
-# Assume you have already started your PySpark session (SparkSession object named 'spark')
+
+Start a PySpark sessions with the command:
+> pyspark
+# After you have started your PySpark session, execute the following commands
+# within pyspark
 
 project_id = "bq-data-ml-engineering"
 dataset_name = "retail_dataset"

@@ -4,7 +4,7 @@ SELECT
   *,
   predicted_Price  -- The output column with the model's prediction
 FROM
-  ML.PREDICT(MODEL `bq-data-ml-engineering.ml_dataset.housing_price_model_linear`,
+  ML.PREDICT(MODEL `bq-data-ml-engineering-459914.ml_dataset.housing_price_model_linear`,
              ( -- Subquery providing the data to predict on
                SELECT
                  -- Ensure all feature columns used during training are present
@@ -16,10 +16,9 @@ FROM
                  LotSize,
                  CAST(ZipCode AS STRING) AS ZipCode, -- Use the same data type as training
                  CrimeRate,
-                 SchoolRating,
-                 Price -- Including the original price for comparison (optional)
+                 SchoolRating
                FROM
-                 `bq-data-ml-engineering.ml_dataset.housing_prices`
+                 `bq-data-ml-engineering-459914.ml_dataset.housing_prices`
                LIMIT 10 -- Example: Predict on the first 10 rows
              )
             );

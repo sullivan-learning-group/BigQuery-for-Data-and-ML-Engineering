@@ -3,7 +3,7 @@ from google.cloud import bigquery
 import datetime
 
 # Replace with your BigQuery project ID
-project_id = 'bq-data-ml-engineering'  # Use the project ID you provided
+project_id = 'bq-data-ml-engineering-459914'  # Use the project ID you provided
 dataset_name = 'retail_dataset'  # Name of your dataset
 
 def generate_descriptive_statistics_bigframes(project_id, dataset_name, table_name):
